@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+.Button{
+    background-color:grey;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px;
+    font-size: 40px;
+
+
+   
+
+}
+.Button:hover {
+    background-color: #4CAF50; /* Green */
+  color: white;
+}

@@ -1,0 +1,72 @@
+body{
+   background-color: lightblue;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   }
+
+.container {
+   width: 58%;
+   display: grid;
+   grid-template-columns: 30% 58%;
+   gap: 12%;
+}   
+
+.contactoptie {
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+}
+.contactopties {
+   background: var(--color-bg-variant);
+   padding: 1.2rem;
+   border-radius: 1.2rem;
+   text-align: center;
+   border: 1px solid;
+   transition: var(--transition);
+}
+
+.contactoptie:hover {
+   background: transparent;
+   border-color: var(--color-primary-variant);
+
+}
+.contact-icon {
+   font-size: 1.5rem;
+   margin-bottom: 0.5rem;
+
+}
+
+.contactoptie a {
+   margin-top: 0.7rem;
+   display: inline-block;
+   font-size: 0.8rem;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+}
+
+
+input , textarea {
+   width: 100%;
+   padding: 1.5rem;
+   border-radius: 0.5rem;
+   
+
+   
+
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
+  background-color: lavenderblush;
+  height: 10%;
+  width: 15%;
+  border: 2px solid #4CAF50;
+}
